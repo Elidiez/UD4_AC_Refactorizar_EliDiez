@@ -18,8 +18,7 @@ public class Circunferencia {
 
     public void imprimir() {
         color = "rojo";
-        double diametro = 2 * radio;
-        System.out.println("Di�metro: " + diametro);
+        System.out.println("Di�metro: " + 2 * radio);
         System.out.println("Color: " + color);
         double area = calcularArea();
         System.out.println(area);
