@@ -17,12 +17,13 @@ public class Circunferencia {
     }
 
     public void imprimir() {
-        String color = "rojo";
+        color = "rojo";
         System.out.println("Di�metro: " + 2 * radio);
         System.out.println("Color: " + color);
         double area = 2 * 3.1416 * radio * radio;
         System.out.println(area);
     }
+    private String color;
 
     public boolean esIgual(Circunferencia otro, boolean conDecimales) {
         double radio1 = this.radio;
