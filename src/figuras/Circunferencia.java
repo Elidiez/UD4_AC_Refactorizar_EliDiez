@@ -20,14 +20,11 @@ public class Circunferencia {
         color = "rojo";
         System.out.println("Di�metro: " + 2 * radio);
         System.out.println("Color: " + color);
-        double area = calcularArea();
+        double area1 = 2 * PI * radio * radio;
+        double area = area1;
         System.out.println(area);
     }
 
-    public double calcularArea() {
-        double area = 2 * PI * radio * radio;
-        return area;
-    }
     private static final double PI = 3.1416;
     private String color;
 
