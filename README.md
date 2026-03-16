@@ -2,7 +2,7 @@
 
 Este repositorio contiene la actividad correspondiente a la **Unidad Didáctica 4 (Optimización y Refactorización)** del módulo de Entornos de Desarrollo.
 
-## 目的 (Objetivo)
+## Objetivo
 El objetivo principal de este proyecto es aplicar técnicas de refactorización sobre un código base para mejorar su legibilidad, mantenibilidad y eficiencia, sin alterar su comportamiento externo.
 
 ## Contenido
